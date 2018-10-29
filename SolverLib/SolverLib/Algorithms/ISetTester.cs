@@ -4,6 +4,6 @@ namespace SolverLib.Algorithms
 {
     public interface ISetTester<TKey>
     {
-        bool Test<TKey>(Keys<TKey> currentCombination, Keys<TKey> set);
+        bool Test(Keys<TKey> currentCombination, Keys<TKey> set);
     }
 }

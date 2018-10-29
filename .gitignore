@@ -7,6 +7,11 @@ ehthumbs.db
 *.pdb
 *.exe
 *.obj
+obj
+bin
+
+#Visual Studio
+*.suo
 
 # Folder config file
 Desktop.ini

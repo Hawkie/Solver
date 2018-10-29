@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using SolverLib.Core;
-using SolverLib.NewAction;
+using SolverLib.Job;
 
 namespace SolverLib.Actions
 {

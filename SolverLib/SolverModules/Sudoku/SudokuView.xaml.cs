@@ -74,7 +74,7 @@ namespace SolverModules.Sudoku
 
         private void loadButton_Click(object sender, RoutedEventArgs e)
         {
-            Solver.Load(@"J:\root\puzzlefiend.txt");
+            Solver.Load(@"..\..\puzzles\puzzlefiend.txt");
         }
 
         private void resetButton_Click(object sender, RoutedEventArgs e)

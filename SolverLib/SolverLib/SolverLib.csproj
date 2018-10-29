@@ -77,10 +77,15 @@
     <Reference Include="WindowsBase">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\CombinationKeys.cs" />
     <Compile Include="Algorithms\CombinationValues.cs" />
+    <Compile Include="Algorithms\ISetProcess.cs" />
+    <Compile Include="Algorithms\ISetProcessor.cs" />
+    <Compile Include="Algorithms\ISetTester.cs" />
+    <Compile Include="Algorithms\IVisitorChange.cs" />
+    <Compile Include="Algorithms\SetProcess.cs" />
     <Compile Include="Core\EnumerableComparer.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -100,6 +105,7 @@
     <Compile Include="Core\ValueGroup\SetOfSets.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Job\ActionSetBase.cs" />
     <Compile Include="Job\JobType.cs" />
     <Compile Include="Job\IJobFilter.cs" />
     <Compile Include="Job\IJobSearch.cs" />
