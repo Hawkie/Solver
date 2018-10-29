@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="SolverModules.SamauraiSudoku.SamuraiSudokuView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="800" Width="800">
+<StackPanel>
+    <WrapPanel>
+            <Button x:Name="loadButton" Width="75" Click="loadButton_Click">Load</Button>
+                <Button x:Name="solveButton" Width="75" Click="solveButton_Click">Solve</Button>
+            <Button x:Name="resetButton" Width="75" Click="resetButton_Click">Reset</Button>
+        </WrapPanel>
+        <Grid x:Name="grid1"></Grid>
+        
+    </StackPanel>
+</UserControl>

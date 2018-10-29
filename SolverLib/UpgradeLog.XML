@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SolverLib">
+</Property><Property Name="Solution File" Value="C:\Code\Solver\SolverLib\SolverLib.sln">
+</Property><Property Name="Date" Value="13 June 2011">
+</Property><Property Name="Time" Value="21:29">
+</Property></Properties><Event ErrorLevel="0" Project="SolverLib" Source="SolverLib\SolverLib.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SolverLib" Source="SolverLib\SolverLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestSolverLib" Source="TestSolverLib\TestSolverLib.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestSolverLib" Source="TestSolverLib\TestSolverLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SudukoModule" Source="SolverModules\SudukoModule.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SudukoModule" Source="SolverModules\SudukoModule.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ModuleTests" Source="ModuleTests\ModuleTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ModuleTests" Source="ModuleTests\ModuleTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SudokuApp" Source="SudukoApp\SudokuApp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SudokuApp" Source="SudukoApp\SudokuApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BridgeModule" Source="BridgeModule\BridgeModule.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BridgeModule" Source="BridgeModule\BridgeModule.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CardLib" Source="Card\CardLib.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CardLib" Source="Card\CardLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BridgeModuleTests" Source="BridgeModuleTests\BridgeModuleTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BridgeModuleTests" Source="BridgeModuleTests\BridgeModuleTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CardLibTests" Source="CardLibTests\CardLibTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CardLibTests" Source="CardLibTests\CardLibTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Evaluation" Source="BidLib\Evaluation.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Evaluation" Source="BidLib\Evaluation.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BridgeCards" Source="BridgeCards\BridgeCards.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BridgeCards" Source="BridgeCards\BridgeCards.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BidAcol" Source="BidAcol\BidAcol.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BidAcol" Source="BidAcol\BidAcol.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BridgeCore" Source="BridgeCore\BridgeCore.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BridgeCore" Source="BridgeCore\BridgeCore.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CoreTests" Source="BidsTest\CoreTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CoreTests" Source="BidsTest\CoreTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EvaluationTests" Source="EvaluationTests\EvaluationTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EvaluationTests" Source="EvaluationTests\EvaluationTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BidAcolTests" Source="BidAcolTests\BidAcolTests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BidAcolTests" Source="BidAcolTests\BidAcolTests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BridgeCardsTest" Source="BridgeCardsTest\BridgeCardsTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BridgeCardsTest" Source="BridgeCardsTest\BridgeCardsTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SolverLib.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SolverLib.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SolverLib" Source="SolverLib\SolverLib.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="SolverLib1.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SolverLib1.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="SolverLib2.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SolverLib2.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="SolverLib3.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SolverLib3.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="SolverLib4.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SolverLib4.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="TestSolverLib" Source="TestSolverLib\TestSolverLib.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SudukoModule" Source="SolverModules\SudukoModule.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ModuleTests" Source="ModuleTests\ModuleTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CardLib" Source="Card\CardLib.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CardLibTests" Source="CardLibTests\CardLibTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BridgeCards" Source="BridgeCards\BridgeCards.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BridgeCardsTest" Source="BridgeCardsTest\BridgeCardsTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BridgeModule" Source="BridgeModule\BridgeModule.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BridgeModuleTests" Source="BridgeModuleTests\BridgeModuleTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Evaluation" Source="BidLib\Evaluation.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="EvaluationTests" Source="EvaluationTests\EvaluationTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BidAcol" Source="BidAcol\BidAcol.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BidAcolTests" Source="BidAcolTests\BidAcolTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BridgeCore" Source="BridgeCore\BridgeCore.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CoreTests" Source="BidsTest\CoreTests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SudokuApp" Source="SudukoApp\SudokuApp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

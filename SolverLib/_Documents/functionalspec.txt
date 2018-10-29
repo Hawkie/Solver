@@ -1,0 +1,7 @@
+
+- Add Bid(-2) to represent partners bid
+- Add IsType(Major) to test an enum ?
+- SuitCount
+
+- Move the responseNegMajor to separate bids in logic form
+- Each bid creates node tree in separate method.

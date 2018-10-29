@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7139B471-B99F-4880-AA61-9EDA7D5FA0C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SolverLib</RootNamespace>
+    <AssemblyName>SolverLib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\CombinationValues.cs" />
+    <Compile Include="Core\EnumerableComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\IPossible.cs" />
+    <Compile Include="Core\SetComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ValueGroup\ISetOfLists.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ValueGroup\ISetOfSets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ValueGroup\SetOfLists.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ValueGroup\SetOfSets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Job\JobType.cs" />
+    <Compile Include="Job\IJobFilter.cs" />
+    <Compile Include="Job\IJobSearch.cs" />
+    <Compile Include="Job\JobFilter.cs" />
+    <Compile Include="Engine\PuzzleEnumerator.cs" />
+    <Compile Include="Job\IJob.cs" />
+    <Compile Include="Job\JobBase.cs" />
+    <Compile Include="Job\JobSearch.cs" />
+    <Compile Include="Logic\ILogicOperation.cs" />
+    <Compile Include="Logic\ILogicStack.cs" />
+    <Compile Include="Logic\LogicNode2.cs" />
+    <Compile Include="Logic\LogicAdd.cs" />
+    <Compile Include="Logic\ILogicLeaf.cs" />
+    <Compile Include="Logic\ILogicNode.cs" />
+    <Compile Include="Logic\ILogicResult.cs" />
+    <Compile Include="Logic\LogicLeaf.cs" />
+    <Compile Include="Logic\LogicNode.cs" />
+    <Compile Include="Logic\LogicAnd.cs" />
+    <Compile Include="Logic\LogicNodeLeaf.cs" />
+    <Compile Include="Logic\LogicOperation.cs" />
+    <Compile Include="Logic\LogicMin.cs" />
+    <Compile Include="Logic\LogicStack.cs" />
+    <Compile Include="Logic\LogicResult.cs" />
+    <Compile Include="Logic\Node2\AbsoluteLowerLimit.cs" />
+    <Compile Include="Logic\Node2\AbsoluteUpperLimit.cs" />
+    <Compile Include="Logic\Node2\AbsoluteEqual.cs" />
+    <Compile Include="Logic\Node2\LogicBitwiseOrTrue.cs" />
+    <Compile Include="Logic\Node2\LogicBitwiseAndTrue.cs" />
+    <Compile Include="Logic\Node2\LinearEqual.cs" />
+    <Compile Include="Logic\Node2\LinearLowerLimit.cs" />
+    <Compile Include="Logic\Node2\LinearUpperLimit.cs" />
+    <Compile Include="SetTesters\CompleteSetTester.cs" />
+    <Compile Include="Constraints\ConstraintBase.cs" />
+    <Compile Include="Constraints\ConstraintType.cs" />
+    <Compile Include="Constraints\IConstraint.cs" />
+    <Compile Include="SetTesters\ReducedSetTester.cs" />
+    <Compile Include="Core\Keys.cs" />
+    <Compile Include="Core\PossibleExtension.cs" />
+    <Compile Include="Engine\ISolver.cs" />
+    <Compile Include="Engine\SolverBase.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Constraints\IConstraints.cs" />
+    <Compile Include="Puzzle\IPuzzle.cs" />
+    <Compile Include="Engine\IPuzzleEngine.cs" />
+    <Compile Include="Puzzle\PuzzleBase.cs" />
+    <Compile Include="Engine\PuzzleEngine.cs" />
+    <Compile Include="Reader\PuzzleReader.cs" />
+    <Compile Include="Reader\SpaceAdapter.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Space\CombinationCode.cs" />
+    <Compile Include="Space\ICombination.cs" />
+    <Compile Include="Space\IRegionBase.cs" />
+    <Compile Include="Space\RegionBase.cs" />
+    <Compile Include="Space\IRegion.cs" />
+    <Compile Include="Space\IKeyedRegions.cs" />
+    <Compile Include="Space\ISpace.cs" />
+    <Compile Include="Constraints\ConstraintMutuallyExclusive.cs" />
+    <Compile Include="Core\Possible.cs" />
+    <Compile Include="Constraints\Constraints.cs" />
+    <Compile Include="Space\Region.cs" />
+    <Compile Include="Space\KeyedRegions.cs" />
+    <Compile Include="Space\Space.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ValueProperties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,309 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="else" priority="3" />
+      <Item value="info" priority="1" />
+      <Item value="if" priority="11" />
+      <Item value="bid" priority="4" />
+      <Item value="Bid" priority="5" />
+      <Item value="BidEnum" priority="1" />
+      <Item value="orderedSuits" priority="0" />
+      <Item value="IList" priority="2" />
+      <Item value="IBidRule" priority="2" />
+      <Item value="BidRuleBase" priority="0" />
+      <Item value="rule1" priority="0" />
+      <Item value="return" priority="8" />
+      <Item value="CreateRules" priority="0" />
+      <Item value="this" priority="13" />
+      <Item value="neg2h" priority="0" />
+      <Item value="new" priority="27" />
+      <Item value="TrumpSuit" priority="0" />
+      <Item value="public" priority="9" />
+      <Item value="ILogicResult" priority="1" />
+      <Item value="null" priority="0" />
+      <Item value="bool" priority="5" />
+      <Item value="level2" priority="0" />
+      <Item value="void" priority="1" />
+      <Item value="IBidRules" priority="1" />
+      <Item value="IBidStack" priority="0" />
+      <Item value="IBridgeBidInfo" priority="0" />
+      <Item value="allMatches" priority="0" />
+      <Item value="bidInfo" priority="2" />
+      <Item value="Bids" priority="0" />
+      <Item value="v1" priority="0" />
+      <Item value="stack" priority="2" />
+      <Item value="KeyValuePair&lt;ILogicOperation,ILogicResult&gt;" priority="0" />
+      <Item value="LogicOperation" priority="8" />
+      <Item value="LogicResult" priority="0" />
+      <Item value="IBid" priority="2" />
+      <Item value="KeyValuePair" priority="0" />
+      <Item value="ILogicOperation" priority="4" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="out" priority="0" />
+      <Item value="Assert" priority="1" />
+      <Item value="evaluation" priority="1" />
+      <Item value="System" priority="1" />
+      <Item value="Console" priority="0" />
+      <Item value="actual" priority="2" />
+      <Item value="override" priority="4" />
+      <Item value="string" priority="15" />
+      <Item value="s" priority="4" />
+      <Item value="StringBuilder" priority="6" />
+      <Item value="sb" priority="23" />
+      <Item value="item" priority="0" />
+      <Item value="below" priority="3" />
+      <Item value="above" priority="3" />
+      <Item value="result" priority="6" />
+      <Item value="String" priority="0" />
+      <Item value="sum" priority="1" />
+      <Item value="suit" priority="7" />
+      <Item value="length" priority="1" />
+      <Item value="myValue" priority="0" />
+      <Item value="foreach" priority="1" />
+      <Item value="List" priority="0" />
+      <Item value="operation" priority="8" />
+      <Item value="private" priority="1" />
+      <Item value="int" priority="1" />
+      <Item value="ToString" priority="0" />
+      <Item value="depth" priority="2" />
+      <Item value="static" priority="0" />
+      <Item value="Indent" priority="2" />
+      <Item value="op" priority="17" />
+      <Item value="leafName" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="r1" priority="0" />
+      <Item value="v2" priority="0" />
+      <Item value="true" priority="2" />
+      <Item value="nest" priority="3" />
+      <Item value="false" priority="1" />
+      <Item value="target" priority="0" />
+      <Item value="ConstraintMutuallyExclusiveTest" priority="0" />
+      <Item value="nestNext" priority="0" />
+      <Item value="BidStack" priority="0" />
+      <Item value="bidStack" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="BidTypeEnum" priority="0" />
+      <Item value="rule" priority="0" />
+      <Item value="LogicAnd" priority="2" />
+      <Item value="LinearEqual" priority="0" />
+      <Item value="SuitIndexOrderedFiltered" priority="0" />
+      <Item value="ILogicNode" priority="2" />
+      <Item value="min" priority="2" />
+      <Item value="longest5" priority="0" />
+      <Item value="lowest4" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.IBridgeBidInfo">
+      <Item value="Hand" priority="1" />
+      <Item value="AuctionBids" priority="1" />
+      <Item value="ProposedBid" priority="0" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BridgeCore.Enum.BidEnum">
+      <Item value="None" priority="0" />
+      <Item value="OneNT" priority="0" />
+      <Item value="OneHeart" priority="0" />
+      <Item value="Pass" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CardLib.Core.Unknown.SuitCount">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.IBid">
+      <Item value="Suit" priority="0" />
+      <Item value="ToString" priority="0" />
+      <Item value="BidType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.IBids">
+      <Item value="Reverse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList" priority="0" />
+      <Item value="FirstOrDefault" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BidAcol.Response.ResponseMajor2Lvl">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CardLib.Core.Enum.SuitEnum">
+      <Item value="Any" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.IBidRule">
+      <Item value="LogicNode" priority="1" />
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.ILogicNode">
+      <Item value="Add" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.ILogicResult">
+      <Item value="Or" priority="0" />
+      <Item value="Value" priority="7" />
+      <Item value="ToInt32" priority="1" />
+      <Item value="ToString" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.LogicResult">
+      <Item value="myValue" priority="1" />
+      <Item value="ToInt32" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.BidRules">
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BridgeCore.DataType.Bid">
+      <Item value="OneHeart" priority="0" />
+      <Item value="TwoClubs" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="4" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.ILogicOperation">
+      <Item value="Operation" priority="4" />
+      <Item value="ToString" priority="0" />
+      <Item value="Result" priority="18" />
+      <Item value="Add" priority="1" />
+      <Item value="Skip" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.LogicStack">
+      <Item value="Push" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.BidStack">
+      <Item value="Bid" priority="1" />
+      <Item value="Rule" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.IBidDictionary">
+      <Item value="TryGetValue" priority="0" />
+      <Item value="ToString" priority="0" />
+      <Item value="Contains" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue" priority="1" />
+      <Item value="AreNotEqual" priority="0" />
+      <Item value="IsNotNull" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.ILogicStack">
+      <Item value="Peek" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="AppendLine" priority="13" />
+      <Item value="Append" priority="11" />
+      <Item value="ToString" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.LogicOperation">
+      <Item value="Count" priority="0" />
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="PadRight" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SolverLib.Logic.LogicLeaf">
+      <Item value="Operation" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Evaluation.QualificationLeaf">
+      <Item value="Operation" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BridgeCore.DataType.IBidStack">
+      <Item value="Bid" priority="0" />
+      <Item value="First" priority="0" />
+      <Item value="Rule" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BidAcol.Opening.Balanced.OpenBalanced1Suit1">
+      <Item value="LogicNode" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="07127338-930A-412B-AB1C-24704A759ABC/f:LogicOperationTest.cs" caret="2356" fromTop="12" />
+      <File id="7139B471-B99F-4880-AA61-9EDA7D5FA0C4/d:Logic/f:ILogicStack.cs" caret="0" fromTop="0" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced1Suit.cs" caret="1764" fromTop="16" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced3Nt.cs" caret="2629" fromTop="16" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced1Suit2.cs" caret="1703" fromTop="14" />
+      <File id="4427491F-FB87-46F0-87E4-65A041FA5F10/d:Bidding/d:Constraints/f:ConstraintOpeningBid.cs" caret="1966" fromTop="9" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:OpenBalanced1NtTest.cs" caret="5154" fromTop="4" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:BidRulesTest.cs" caret="2297" fromTop="9" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Groups/d:Response/f:ResponseMajor.cs" caret="2403" fromTop="7" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:BidRules.cs" caret="329" fromTop="8" />
+      <File id="151C51AC-C70C-4ECD-BB91-8939E3A5D4E3/f:SudukoViewTest.cs" caret="0" fromTop="0" />
+      <File id="151C51AC-C70C-4ECD-BB91-8939E3A5D4E3/f:SudokuPuzzleBaseTest.cs" caret="0" fromTop="0" />
+      <File id="AF9564B7-87E5-43F7-9DEA-C8287E0BE21F/d:Sudoku/f:SudokuPuzzle.cs" caret="0" fromTop="0" />
+      <File id="151C51AC-C70C-4ECD-BB91-8939E3A5D4E3/f:PuzzleBaseTest.cs" caret="0" fromTop="0" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:IBidStack.cs" caret="272" fromTop="12" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:BidStack.cs" caret="326" fromTop="13" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:BidRuleBase.cs" caret="1802" fromTop="16" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Response/f:ResponseBidBase.cs" caret="1063" fromTop="10" />
+      <File id="95345D3C-A502-4BDA-9917-0AF0E305F653/d:Cards/d:Node/f:SuitIndexOrdered.cs" caret="1417" fromTop="17" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/f:OpeningBidBase.cs" caret="892" fromTop="6" />
+      <File id="95345D3C-A502-4BDA-9917-0AF0E305F653/d:Cards/d:Node/f:SuitIndexOrderedFiltered.cs" caret="2081" fromTop="17" />
+      <File id="95345D3C-A502-4BDA-9917-0AF0E305F653/d:Cards/d:Node/f:CountIndexOrderedFiltered.cs" caret="1691" fromTop="12" />
+      <File id="7139B471-B99F-4880-AA61-9EDA7D5FA0C4/d:Logic/f:LogicAnd.cs" caret="585" fromTop="17" />
+      <File id="7139B471-B99F-4880-AA61-9EDA7D5FA0C4/d:Logic/f:LogicAdd.cs" caret="978" fromTop="26" />
+      <File id="7139B471-B99F-4880-AA61-9EDA7D5FA0C4/d:Logic/f:LogicMin.cs" caret="576" fromTop="15" />
+      <File id="7139B471-B99F-4880-AA61-9EDA7D5FA0C4/d:Logic/f:LogicNode2.cs" caret="0" fromTop="0" />
+      <File id="7139B471-B99F-4880-AA61-9EDA7D5FA0C4/d:Logic/f:LogicNode.cs" caret="0" fromTop="0" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced2C.cs" caret="2410" fromTop="8" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Balanced/f:OpenBalanced1Suit2.cs" caret="951" fromTop="10" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Balanced/f:OpenBalanced1Suit1.cs" caret="1706" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/f:OpeningBidBase.cs" caret="1120" fromTop="9" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/f:OpeningBidBase.cs" caret="1293" fromTop="14" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced2C.cs" caret="1646" fromTop="8" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced2C.cs" caret="1804" fromTop="15" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced1Suit.cs" caret="1764" fromTop="16" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced3Nt.cs" caret="2629" fromTop="16" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced1Suit2.cs" caret="1469" fromTop="2" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Unbalanced/f:OpenUnbalanced1Suit2.cs" caret="1703" fromTop="9" />
+      <File id="4427491F-FB87-46F0-87E4-65A041FA5F10/d:Bidding/d:Constraints/f:ConstraintOpeningBid.cs" caret="1966" fromTop="11" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:OpenBalanced1NtTest.cs" caret="2679" fromTop="10" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:OpenBalanced1NtTest.cs" caret="2998" fromTop="16" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:OpenBalanced1NtTest.cs" caret="3655" fromTop="9" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:OpenBalanced1NtTest.cs" caret="4280" fromTop="12" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:OpenBalanced1NtTest.cs" caret="5154" fromTop="4" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:BidRulesTest.cs" caret="33" fromTop="1" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:BidRulesTest.cs" caret="2857" fromTop="17" />
+      <File id="519442A6-3747-40B0-B1DC-745206E7D2EC/f:BidRulesTest.cs" caret="2639" fromTop="9" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Groups/d:Response/f:ResponseMajor.cs" caret="2403" fromTop="7" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:IBidStack.cs" caret="270" fromTop="12" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:BidStack.cs" caret="398" fromTop="17" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:BidRuleBase.cs" caret="1667" fromTop="11" />
+      <File id="277C8C46-6FD3-4ABA-86C0-931EF93BEE55/d:DataType/f:BidStack.cs" caret="327" fromTop="13" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Response/f:ResponseBidBase.cs" caret="1062" fromTop="9" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/f:OpeningBidBase.cs" caret="892" fromTop="6" />
+      <File id="95345D3C-A502-4BDA-9917-0AF0E305F653/d:Cards/d:Node/f:CountIndexOrderedFiltered.cs" caret="1692" fromTop="12" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Balanced/f:OpenBalanced1Suit1.cs" caret="1706" fromTop="14" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Balanced/f:OpenBalanced1Suit1.cs" caret="1706" fromTop="13" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Balanced/f:OpenBalanced1Suit1.cs" caret="1568" fromTop="14" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Balanced/f:OpenBalanced1Suit1.cs" caret="1739" fromTop="11" />
+      <File id="C9B5001A-F229-455E-AF25-0AC09A8A6E54/d:Opening/d:Balanced/f:OpenBalanced1Suit2.cs" caret="985" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>
